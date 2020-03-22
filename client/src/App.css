@@ -1,5 +1,19 @@
+.paws-logo {
+    margin-left: 63%;
+    padding-left: 65px
+}
+
+.list-group-item {
+    width: 20%;
+    font-size: 90%;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    float: left;
+    border: 1pt;
+}
+
 .remove-btn {
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
 }
 
 .fade-enter {
@@ -22,7 +36,29 @@
 
 
 .remove-btn {
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}
+
+.remove-btn {
+    margin-right: 0.25rem;
 }
 
 .fade-enter {
@@ -50,50 +86,6 @@
     bottom:0;
     right:0;
     background-color: #d1c4e9;
-    padding: 0px 0px 0px 0px;
-    text-align: left;
-}
-
-.footer-container {
-    padding-top: 15px;
-    padding-bottom: 5px;
-
-}
-
-.remove-btn {
-    margin-right: 0.5rem;
-}
-
-.fade-enter {
-    opacity: 0.01;
-}
-
-.fade-enter-active {
-    opacity: 1;
-    transition: opacity 1000ms ease-in;
-}
-
-.fade-exit {
-    opacity: 1;
-}
-
-.fade-exit-active {
-    opacity: 0.01;
-    transition: opacity 1000ms ease-in;
-}
-
-#footer {
-    position: fixed;
-    left:0;
-    bottom:0;
-    right:0;
-    background-color: #d1c4e9;
-    padding: 0px 0px 0px 0px;
-    text-align: left;
-}
-
-.footer-container {
-    padding-top: 15px;
-    padding-bottom: 5px;
-
+    padding: .75em 0px 0px 0px;
+    font-size: .75em;
 }

@@ -18,7 +18,9 @@ class Checklist extends Component {
         const {items} = this.props.item;
         return (
             <Container>
-            <col-sm-6>
+                <row />
+                <col-sm-12 />
+                <div className="Header" /><strong>Essential Supplies for New Pet Owners (Customize)</strong>
             <ListGroup>
                 <TransitionGroup className="Checklist"> {
                     items.map(({ _id, name }) => (<CSSTransition key={_id}
@@ -31,11 +33,11 @@ class Checklist extends Component {
                             }>
                                 &times;
                             </Button>
-                            {name} </ListGroupItem>
+                            {name} 
+                        </ListGroupItem>
                     </CSSTransition>))
                 } </TransitionGroup>
             </ListGroup>
-            </col-sm-6>
         </Container>);
     }
 } Checklist.propTypes = {

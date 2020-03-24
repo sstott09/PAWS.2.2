@@ -16,7 +16,13 @@ const db = process.env.MONGODB_URI;
 
 // Connect to Mongo
 mongoose
-    .connect(db)
+    .connect(db,
+        {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            useCreateIndex: true,
+            useFindAndModify: false
+          })
     .then(() => console.log('MongoDB Connected...'))
     .catch(err => console.log(err));
 

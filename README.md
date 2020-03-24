@@ -1,9 +1,3 @@
-### University of Denver 
-### Class: DU_VIRT_FSF_PT_09_2019_U.O.MW
-### Program: Full Stack Flex Online Part-Time
-### Project 2 (Version 2.2, MERN STACK Migration Phase 1)
-..............................................................................................
-
 ## Table of Contents
 <ul>
 <li><a href="#preview">Preview</a></li>
@@ -16,7 +10,7 @@
 <li><a href="#acknowledgements">Acknowledgements</a></li>
 
 ### Preview
-![preview](client/public/PAWS - New Adoption Checklist.gif)
+![preview](https://github.com/sstott09/PAWS.2.2/blob/master/client/public/PAWS%20-%20New%20Adoption%20Checklist.gif?raw=true)
 
 ### About
 In phase I of the migration from the original JavaScript Application (www.paws.wtf). I've created a Full Stack MERN (MondoDB, Express, React, Node.js) application framework to help facilitate the transition. This new website allows the user to create and customize a checklist of essential items for Pet Adopters bringing a new pet into their home via the New Adopters Checklist REACT Component. Upon accessing the app, the user is provided a template of recommended essential items for both Dog's and Cats. They will have the ability to add (utilzing a functional Modal) or delete any item to their checklist. Making it fully customizable to their specific need.
@@ -38,7 +32,7 @@ Phase II - will incorporate Authentication, User Profiles, and the ability to Sa
 The application was deployed via Heroku site, so there are no requirements to use. 
 
 ### Demo Application
-Want to give it a go?
+Want to give it a go?<br></br>
 Access this site at: **https://evening-thicket-58926.herokuapp.com/**
 
 ### Build Tools
